@@ -1,0 +1,197 @@
+/* Main styling */
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+/* Variables */
+
+:root {
+    --main-bg: #F3F8FB;
+    --secondary-text: #333333;
+    --white: #fff;
+    --status: #ffcc07;
+  }
+
+/* Start of Typography : This section consists of all 'Typography' used in webpage styling */
+
+.tabs-hdr-typo {
+    font-size: 20px !important;
+    color: #808080 !important;
+    text-transform: capitalize !important;
+}
+
+.tabs-hdr-selected {
+    color: #009898 !important;
+}
+
+.hdr-label {
+    font-size: 12px;
+    color: #666666;
+    font-style: normal !important;
+    font-weight: 100;
+}
+
+.hdr-lg {
+    font-size: 18px !important;
+}
+
+.content-title-font {
+    font-size: 16px;
+    color: var(--secondary-text);
+    font-style: normal;
+}
+.new-asset {
+    font-size: 14px;
+    color: #999999;
+}
+
+/* End of Typography : This section consists of all 'Typography' used in webpage styling */
+
+/* *************************** */
+
+/* Start of FlexBox : This stylesheet consists of all flexbox styling */
+
+.flex {
+    display: flex;
+}
+
+.cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* End of FlexBox : This stylesheet consists of all flexbox styling */
+
+/* *************************** */
+
+/* Start of Main background styling */
+
+.box-bg {
+    background-color: var(--main-bg);
+}
+
+/* End of Main background styling */
+
+/* *************************** */
+
+
+/* Start of Navbar styling */
+
+.tab-ht {
+    background-color: var(--white);
+    height: 60px;
+}
+
+.tab-separator {
+    padding-left: 80px;
+}
+
+.tab-highlight {
+    border-bottom: 2px solid #009898;
+}
+
+.status {
+    background-color: var(--status);
+    border-radius: 20px;
+    font-size: 14px;
+    font-style: normal;
+    padding: 0px 10px 0px 10px;
+    text-transform: uppercase;
+}
+
+.caret-down {
+    color: var(--secondary-text);
+}
+
+/* End of Navbar styling */
+
+/* *************************** */
+
+/* Start of Header section */
+.hdr-ht {
+    color: var(--secondary-text);
+    height: 56px;
+    text-transform: uppercase;
+}
+
+/* Start of Header section */
+
+/* *************************** */
+.main {
+    background-color: #f6f6f6;
+}
+
+.main-white-section {
+    background-color: var(--white);
+}
+
+
+/* Right Panel */
+.table-hdr {
+    color: var(--secondary-text);
+    background-color: grey;
+    height: 54px;
+    text-transform: uppercase;
+}
+
+.right-box {
+    background-color: var(--white);
+}
+
+.content-title {
+    height: 60px;
+}
+
+.content-ht {
+    height: 220px;
+}
+
+.increment {
+    color: var(--white);
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background-color: #5A7DAF;
+}
+.decrement {
+    color: #e32228;
+    background-color: #eaeaea;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+}
+.table-box {
+    background-color: #f6f6f6;
+}
+.content-height {
+    height: 200px;
+}
+.link{
+    color: blue;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.pie-chart {
+    height: 200px;
+}
+.left-height{
+    height: 876px;
+}
+
